@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: #4B98DC !important;
+    width: 100vw;
+    height: 100vh;
+    color: #888;
+}
+.q-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.q-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.container-link button {
+    background-color: #CCCCCC;
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 0.25s linear;
+    border-radius: 3px;
+
+}
+.container-link button:hover {
+    background-color: #3F96CE;
+    color: white;
+}
+button.q-active {
+    background-color: #3F96CE;
+    color: white;
+}
+.gender {
+    display: flex;
+}
+.gender span{
+    color: #888;
+}
+
+/*Turn Off Number Input Spinners*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
