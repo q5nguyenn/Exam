@@ -40,6 +40,7 @@ button.q-active {
     color: white;
 }
 .container-link a {
+    display: inline-block;
     background-color: #CCCCCC;
     color: white !important;
     padding: 10px 20px;
